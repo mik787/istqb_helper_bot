@@ -50,3 +50,7 @@ dispatcher.add_handler(CommandHandler("list", send_list_of_statements))
 dispatcher.add_handler(MessageHandler(Filters.command, unknown))
 
 updater.start_polling()
+
+
+if __name__ == '__main__':
+    pass
